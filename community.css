@@ -1,4 +1,4 @@
-.button {
+/*.button {
     border: darkgreen;
     color: white;
     padding: 15px 32px;
@@ -8,7 +8,82 @@
     font-size: 16px;
     margin: 25% 50%;
     cursor: pointer;
-  }
-h3::a+before{
-    img src=""
+  }*/
+  body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Styles */
+.navbar {
+    background-color: #005d80;
+    color: white;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+}
+
+/* Title and Main Content Styles */
+.title-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.title-content .main-content h3 {
+    color: #005d80;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.title-content .main-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #005d80;
+    height: 100px;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* Terms and Privacy Links Styles */
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #c0c0c0;
+}
+
+  @media screen and (max-width: 768px) {
+    .button {
+        font-size: 14px; /* Adjust font size for smaller screens */
+        padding: 10px 25px; /* Adjust padding for smaller buttons */
+        margin: 10% 50%; /* Adjust margin for vertical alignment and centered horizontally */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .button {
+        font-size: 12px; /* Further adjust font size for even smaller screens */
+        padding: 8px 20px; /* Further adjust padding for smaller buttons */
+        margin: 5% 50%; /* Further adjust margin for vertical alignment */
+    }
 }

@@ -1,5 +1,5 @@
 body{
-    background-image: url("Images/WhatsApp\ Image\ 2023-08-18\ at\ 20.47.27.jpg");
+    background-image: url("Images/transparent.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center; 
@@ -17,3 +17,14 @@ h3.name{
     color:(136°, 46%, 45%);
 }
 
+@media screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    h2 {
+        font-size: 1.75rem; /* Equivalent to 28px */
+        text-align: center;
+    }
+
+    h3.name {
+        font-size: 1.25rem; /* Equivalent to 20px */
+    }
+}

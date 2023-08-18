@@ -2,9 +2,8 @@ body{
     
     display:flex;
     flex-direction: column;}
+
     
-
-
 .title-content  {
     
     margin:auto;
@@ -40,6 +39,7 @@ body{
     color:aliceblue;
     text-align:center;
 }
+
 
 @media screen and (max-width: 768px) {
     .title-content .main-content h3 {

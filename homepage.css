@@ -1,3 +1,74 @@
+
+.container{
+    display:flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.img {
+    margin-left: 10%;
+    margin-top: 50px;
+    margin-top: -20px;
+}
+
+.logo {
+    margin-left: 0.5%;
+}
+
+.container-fluid {
+    background-color: white;
+    margin-left: 15%;
+    margin-top: -160px;
+}
+
+.navbar-brand {
+    margin-left: 10%;
+}
+
+.logo::after {
+    content: "Wellness Park";
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 500;
+    font-size: larger;
+    background-color: #DAFFFB;
+}
+
+.feature1 {
+    background-color: #DDFFBB;
+    height: 300px;
+}
+
+.feature2 {
+    background-color: #C7E9B0;
+    color: black;
+}
+
+.feature3 {
+    background-color: #8EAC50;
+    color: black;
+}
+
+.icon-link {
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+/* Media Queries for Responsiveness */
+
+@media screen and (max-width: 768px) {
+    .img, .container-fluid, .navbar-brand {
+        margin-left: 5%;
+    }
+
+    .logo::after {
+        font-size: medium;
+    }
+} 
+
+
+
+/*
+
 .img{
     margin-left: 150px;
     margin-top: 50px;
@@ -17,22 +88,24 @@
 }
 .logo::after{
     content: "Wellness Park";
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 900;
-    font-size:x-large;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 500;
+    font-size:larger;
     background-color: #DAFFFB;
+    
 
 }
 .feature1{
-    background-color:lightskyblue;
+    background-color:#A0C49D;
     height: 300px;
     
 }
 .feature2{
-    background-color: #279EFF;
+    background-color: #C4D7B2;
+    color: black;
 }
 .feature3{
-    background-color: #4477CE;
+    background-color: #E1ECC8;
     
 }
 .icon-link{

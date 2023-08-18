@@ -24,7 +24,7 @@ body{
     text-align: center;
     font-size: 50px;
     flex-wrap: wrap;
-    width: 500px;
+    width: 1300px;
     margin: auto;
 }
 
@@ -41,7 +41,12 @@ body{
     flex:1;
     align-items: center;
     justify-content: center;
-    width:1000px
+    width:1000px;
+}
+.main-container img{
+    width:360px;
+    height:400px;
+
 }
 .green{
     background-color:rgb(27, 143, 67); ;
@@ -50,18 +55,60 @@ body{
     color:aliceblue;
     text-align:center;
 }
+.hand{
+    margin-left: 400px;
+}
+.card-title{
+    float: right;
+    margin-top: -400px;
+    font-size: 50px;
+    margin-right: 100px;
+}
+.card-text{
+    float: right;
+    margin-top: -250px;
+    font-size: 25px;
+
+}
+.btn{
+    margin-left: 600px;
+    margin-top: -200px;
+}
+.card{
+    height: 400px;
+    margin-bottom: 50px;
+}
+.card2{
+    height: 400px;
+    background-color: white;
+}
+.card3{
+    height: 400px;
+    background-color: white;
+}
+
+
+
 @media screen and (max-width: 768px) {
+    /* Adjust title content font size and width for smaller screens */
     .title-content .main-content h3 {
-        font-size: 40px; 
-        max-width: 80%; 
+        font-size: 2rem; /* Equivalent to 32px */
+        max-width: 90%; /* Adjusted max-width for smaller screens */
+    }
 
     .title-content .main-content p {
-        max-width: 100%; 
+        max-width: 100%; /* Adjusted max-width for smaller screens */
+    }
+
+    /* Adjust card-title font size for smaller screens */
+    .card-title {
+        font-size: 2rem; /* Equivalent to 32px */
+    }
+
+    /* Adjust card-text font size for smaller screens */
+    .card-text {
+        font-size: 1.5rem; /* Equivalent to 24px */
     }
 }
 
-@media screen and (max-width: 480px) {
-    .title-content .main-content h3 {
-        font-size: 30px; 
-    }
-}}
+
