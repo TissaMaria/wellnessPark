@@ -1,0 +1,42 @@
+.img{
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-top: -20px;
+}
+.logo{
+    margin-left: 0.5px;
+}
+.container-fluid{
+    background-color: white;
+    margin-left: 362px;
+    margin-top: -160px;
+}
+.navbar-brand{
+    margin-left: 300px;
+    
+}
+.logo::after{
+    content: "Wellness Park";
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-size:x-large;
+    background-color: #DAFFFB;
+
+}
+.feature1{
+    background-color:lightskyblue;
+    height: 300px;
+    
+}
+.feature2{
+    background-color: #279EFF;
+}
+.feature3{
+    background-color: #4477CE;
+    
+}
+.icon-link{
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}

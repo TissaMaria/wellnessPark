@@ -1,0 +1,19 @@
+body{
+    background-image: url("Images/WhatsApp\ Image\ 2023-08-18\ at\ 20.47.27.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background opacity: 0.5%;
+
+}
+h2{
+    font-size: 36px;
+    text-align: left;
+    text-color:black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+h3.name{
+    background-color:white;
+    color:(136°, 46%, 45%);
+}
+
